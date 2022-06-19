@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import OnliStonk from "./OnliStonk/OnliStonk";
+import AnalystView from "./AnalystView/AnalystView";
 import CodeShare from "./CodeShare/CodeShare";
 import Game_2048 from "./Game_2048/Game_2048";
 import Interpreter_2048 from "./Interpreter_2048/Interpreter_2048";
@@ -25,6 +26,9 @@ const ProjectVideo = (props) => {
       </div>
       {props.project === "Onli Stonk" && (
         <OnliStonk project={props.project} setProject={props.setProject} />
+      )}
+      {props.project === "Analyst View" && (
+        <AnalystView project={props.project} setProject={props.setProject} />
       )}
       {props.project === "Code Share" && (
         <CodeShare project={props.project} setProject={props.setProject} />

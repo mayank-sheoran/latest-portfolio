@@ -19,10 +19,10 @@ const AboutMe = (props) => {
       <div className="aboutme-content">
         <img src={BITSLOGO} alt="bits logo" />
         <p>
-          I am Mayank Sheoran, Final year student of Computer Science at{" "}
-          <span>BITS PILANI</span>. I am a learning enthusiast with some
-          patience, always energetic and eager to learn new skills. As of now i
-          am working on my Web Development, Competitive Coding skills.{" "}
+          I am Mayank Sheoran, B.E Computer Science graduate from{" "}
+          <span>BITS PILANI</span>. I am a learning enthusiast, always energetic
+          and eager to learn new skills. As of now i am working on Full stack
+          development, Competitive coding, Quantitative trading skills.{" "}
         </p>
       </div>
     </div>

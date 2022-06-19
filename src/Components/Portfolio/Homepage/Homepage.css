@@ -29,7 +29,7 @@ body {
   height: 100%;
   width: 503px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   z-index: 1010;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 .homepage-project-panel {
   position: absolute;
-  top: 150px;
+  top: 50px;
   right: 25px;
   width: 500px;
   z-index: 1000;
@@ -105,8 +105,9 @@ body {
 }
 
 .homepage-logo-outer {
+  margin-left: 15px;
+  height: 150px;
   width: 112px;
-  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -129,6 +130,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 503px;
+  margin-left: 50px;
 }
 
 .homepage-download-skill-button {
@@ -142,7 +144,7 @@ body {
 .homepage-connect-section {
   position: absolute;
   bottom: 20px;
-  left: 128px;
+  left: 50px;
   width: 300px;
   height: 80px;
   display: flex;
@@ -324,19 +326,12 @@ button:hover .button-text {
 .homepage-intro-section-header {
   position: relative;
   /* top: 172px; */
-  margin-top: 170px;
   /* left: 112px; */
   height: 210px;
   width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-@media screen and (max-width: 1400px) {
-  .homepage-intro-section-header {
-    margin-top: 120px !important;
-  }
 }
 
 .homepage-intro-section-header h5 {

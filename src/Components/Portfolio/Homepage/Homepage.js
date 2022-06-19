@@ -115,6 +115,12 @@ const Homepage = () => {
             <div className="homepage-projects-container">
               <div
                 className="homepage-project-container"
+                onClick={() => setProject("Analyst View")}>
+                <h3>Analyst View</h3>
+              </div>
+              <div className="homepage-project-breakline"></div>
+              <div
+                className="homepage-project-container"
                 onClick={() => setProject("Onli Stonk")}>
                 <h3>Onli Stonk</h3>
               </div>
