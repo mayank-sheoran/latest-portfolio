@@ -51,7 +51,7 @@ const Homepage = () => {
                 <div className="homepage-download-btn">
                   {/* eslint-disable-next-line */}
                   <a
-                    href="https://drive.google.com/file/d/1NAKtYNr7RGO5aIIiV093Z_hHgl5bPP8v/view"
+                    href="https://drive.google.com/file/d/14H95CCwkODu7LmbmrzpJA87Usv5Aw0KK/view?usp=sharing"
                     className="btn-flip"
                     data-back="Download"
                     target="_blank"
