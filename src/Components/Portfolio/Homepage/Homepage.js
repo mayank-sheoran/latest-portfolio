@@ -51,7 +51,7 @@ const Homepage = () => {
                 <div className="homepage-download-btn">
                   {/* eslint-disable-next-line */}
                   <a
-                    href="https://drive.google.com/file/d/1daGUZsOrJa_6dzbo53v5uoG10S7i_x5o/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1A0YsLtfQMes0wD-uTj0xjmBAIRobVUR5/view"
                     className="btn-flip"
                     data-back="Download"
                     target="_blank"
@@ -113,6 +113,12 @@ const Homepage = () => {
           <div className="homepage-project-panel">
             <p>My Work</p>
             <div className="homepage-projects-container">
+              <div
+                className="homepage-project-container"
+                onClick={() => setProject("HFT")}>
+                <h3>HFT <span style={{ fontSize: "15px" }}>algo trading</span></h3>
+              </div>
+              <div className="homepage-project-breakline"></div>
               <div
                 className="homepage-project-container"
                 onClick={() => setProject("Analyst View")}>
